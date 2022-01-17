@@ -1,0 +1,39 @@
+h1{
+    color: blue;
+    font-size: 30px;
+    border-bottom: 2px solid red;
+}
+p{
+    color: brown;
+    font-size: 16px;
+}
+a{
+    color: green;
+    font-size: 20px;
+}
+a:hover{
+    color:rgb(153, 0, 255);
+    font-size: 25px;
+}
+a:active{
+    color:powderblue;
+    font-size: 25px;
+}
+.black_p{
+    color: black;
+    font-family: Verdana;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: left;
+    text-indent: 32px;
+    /*text-decoration: line-through;*/
+    letter-spacing: 2px;
+}
+.blue{
+    color: blue;
+    font-size: 20px;
+}
+
+img{
+    border: 3px solid black;
+}
