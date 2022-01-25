@@ -47,15 +47,6 @@ table {
 	border-spacing: 0;
 }
 
-.box{
-    border: 1px solid blue;
-	width: 300px;
-	margin-left: 30px;
-	margin-top: 30px;
-	padding: 30px;
+audio {
+    display: none;
 }
-
-.box p{
-    margin-bottom: 30px;
-}
-
