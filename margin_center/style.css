@@ -47,17 +47,30 @@ table {
 	border-spacing: 0;
 }
 
-.box{
-    border: 10px solid blue;
-	width: 300px;
-	margin-left: 30px;
-	margin-top: 30px;
-	padding: 50px;
-	background-color: black;
-}
 
-.box p{
+.wrap{
+    width: 500px;
+    background: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header{
+    height: 50px;
+    background: red;
+}
+.content{
+    background: blue;
+    color: white;
+    padding: 20px;
+}
+.content p{
+    color: white;
     margin-bottom: 30px;
-	color: white;
 }
-
+.footer{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background: pink;
+    box-sizing: content-box;
+}

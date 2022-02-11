@@ -48,16 +48,21 @@ table {
 }
 
 .box{
+    width: 50px;
+    height: 50px;
     border: 10px solid blue;
-	width: 300px;
-	margin-left: 30px;
-	margin-top: 30px;
-	padding: 50px;
-	background-color: black;
+    padding:10 px;
+    background: black;
+    box-sizing: content-box;
+    margin: 20px;
 }
 
-.box p{
-    margin-bottom: 30px;
-	color: white;
+.box2{
+    width: 50px;
+    height: 50px;
+    border: 10px solid blue;
+    padding:10 px;
+    background: black;
+    box-sizing: border-box; /*目前網頁開發多用此法*/
+    margin: 20px;
 }
-
