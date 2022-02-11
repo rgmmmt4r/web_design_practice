@@ -47,24 +47,33 @@ table {
 	border-spacing: 0;
 }
 
-*,*::before,*::after{
-	box-sizing: border-box;
+body{
+    font-size: 36px;
+    color:blue;
 }
 
-.box{
-    width: 50px;
-    height: 50px;
-    border: 10px solid blue;
-    padding:10px;
-    background: #000;
-	box-sizing: content-box;
-}
+.menu{
+    width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
 
-.box1{
-    width: 50px;
-    height: 50px;
-    border: 10px solid blue;
-    padding:10px;
-    background: #000;
-	box-sizing: border-box; /*現在常用*/
+}
+.menu li{
+    width: 100px;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+.menu li a{
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #00ffa2;
+    text-decoration: none;
+    color: #004466;
+}
+.menu li a:hover{
+    background: #004466;
+    color:#00ffa2;
 }
